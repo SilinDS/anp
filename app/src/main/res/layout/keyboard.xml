@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/hebrwKeyboardView"
+    android:layout_width="fill_parent"
+	android:layout_alignParentBottom="true"
+    android:layout_below="@+id/xsubLayout"
+	android:orientation="vertical"
+    android:background="#000000"
+	android:visibility="visible"
+    android:layout_height="190sp">
+	<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+        android:layout_height="200sp"
+		android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+		android:clipChildren="true"
+        android:layout_marginTop="10sp"
+        >
+
+			<TableRow
+                android:layout_width="fill_parent"
+				android:layout_height="match_parent"
+                >
+				<LinearLayout
+                    android:baselineAligned="true"
+					android:layout_width="fill_parent"
+                    android:layout_height="45sp"
+					>
+					<Button android:id="@+id/xA"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:text="Q" android:tag="Q"
+                            android:layout_marginLeft="3sp"
+						/>
+					<Button android:id="@+id/xB"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:tag="W"	android:text="W"
+						/>
+					<Button android:id="@+id/xC"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:text="E" android:tag="E"
+
+						/>
+					<Button android:id="@+id/xD"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:text="R" android:tag="R"
+						/>
+
+
+                    <Button
+                        android:id="@+id/x7"
+                        android:layout_width="38sp"
+                        android:layout_height="match_parent"
+                        android:text="7" android:tag="7"
+                        android:layout_marginLeft="15sp"
+                        />
+					<Button
+                        android:id="@+id/x8"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:text="8"  android:tag="8"
+                        />
+                    <Button
+                        android:id="@+id/x9"
+                        android:layout_width="38sp"
+                        android:layout_height="match_parent"
+                        android:text="9"  android:tag="9"
+                        />
+
+                    <Button
+                        android:id="@+id/xBack"
+                        android:layout_width="80sp"
+                        android:layout_height="match_parent"
+                        android:tag="back"
+                        android:text="Delete" />
+
+
+
+
+
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="match_parent">
+				<LinearLayout
+                    android:layout_width="fill_parent"
+					android:layout_height="45sp">
+
+                    <Button android:id="@+id/xE"
+                            android:layout_width="38sp"
+                            android:layout_height="match_parent"
+                            android:text="T" android:tag="T"
+                            android:layout_marginLeft="3sp"
+                        />
+                    <Button android:id="@+id/xF"
+                            android:layout_width="38sp"
+                            android:layout_height="match_parent"
+                            android:tag="Y" android:text="Y"
+                        />
+					<Button android:id="@+id/xG"
+						android:layout_width="38sp"
+						android:tag="A"
+						android:layout_height="match_parent"
+                            android:text="A"
+						/>
+					<Button
+						android:id="@+id/xH"
+                        android:layout_width="38sp"
+                        android:tag="S"
+						android:layout_height="match_parent"
+                        android:text="S"
+						/>
+
+
+					<Button
+						android:id="@+id/x4"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:tag="4" android:text="4"
+                        android:layout_marginLeft="15sp"
+                        />
+					<Button
+						android:id="@+id/x5"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:tag="5" android:text="5"  />
+					<Button 
+						android:id="@+id/x6"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+						android:tag="6" android:text="6"  />
+
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="match_parent" android:layout_gravity="fill_vertical"
+				android:orientation="horizontal">
+				<LinearLayout
+                    android:layout_width="fill_parent"
+					android:layout_height="45sp"
+                    android:gravity="bottom"
+					android:orientation="horizontal"
+                    >
+
+                    <Button
+                        android:id="@+id/xJ"
+                        android:layout_width="38sp"
+                        android:tag="D"
+                        android:layout_height="match_parent"
+                        android:text="D"
+                        android:layout_marginLeft="3sp"
+                        />
+                    <Button
+                        android:id="@+id/xK"
+                        android:layout_toRightOf="@id/xD" android:layout_width="38sp"
+                        android:tag="F"
+                        android:layout_height="match_parent" android:text="F"
+                        />
+                    <Button
+                        android:id="@+id/xL"
+                        android:layout_width="38sp"
+                        android:layout_height="match_parent"
+                        android:tag="G" android:text="G"
+                        />
+
+					<Button
+                        android:id="@+id/xM"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+                        android:text="à" android:tag="à"
+						/>
+
+
+					<Button
+                        android:id="@+id/x1"
+						android:layout_width="38sp"
+						android:layout_height="match_parent"
+                        android:layout_marginLeft="15sp"
+                        android:text="1" android:tag="1"
+						/>
+					<Button
+                        android:id="@+id/x2"
+						android:layout_width="38sp"
+                        android:layout_height="match_parent"
+                        android:tag="2"   android:text="2"
+						/>
+					<Button
+                        android:id="@+id/x3"
+						android:layout_width="38sp"
+                        android:layout_height="match_parent"
+						android:tag="3"	android:text="3"
+                        />
+
+				</LinearLayout>
+			</TableRow>
+			<TableRow android:layout_width="fill_parent"
+				android:layout_height="match_parent"
+				android:orientation="horizontal">
+				<RelativeLayout
+                    android:layout_width="fill_parent"
+					android:layout_height="45sp"
+                    android:gravity="bottom"
+					android:orientation="horizontal"
+                    >
+
+                    <Button
+                        android:id="@+id/xChange"
+                        android:layout_width="50sp"
+                        android:layout_height="match_parent"
+                        android:tag="upper"
+                        android:layout_marginLeft="3sp"
+                        android:text="VIN"
+                        android:layout_alignParentLeft="true"
+                        />
+
+                    <Button
+                        android:id="@+id/xVoice"
+                        android:layout_width="70sp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10sp"
+                        android:text="Voice"
+                        android:layout_toRightOf= "@+id/xChange"
+                            />
+
+                    <Button
+                        android:id="@+id/xDone"
+                        android:layout_width="80sp"
+                        android:layout_height="fill_parent"
+                        android:text="Enter"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+                    <Button
+                        android:id="@+id/x0"
+                        android:layout_width="38sp"
+                        android:layout_height="match_parent"
+                        android:tag="0"
+                        android:text="0"
+                        android:layout_toLeftOf="@+id/xDone"
+                        android:layout_marginRight="38sp"
+                        />
+
+                    <Button
+                        android:id="@+id/xScan"
+                        android:layout_width="65sp"
+                        android:layout_height="match_parent"
+                        android:text="Scan"
+                        android:layout_marginRight="5sp"
+                        android:layout_toLeftOf="@+id/x0"
+                        />
+
+                </RelativeLayout>
+			</TableRow>
+		</TableLayout>
+
+</RelativeLayout>

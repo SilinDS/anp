@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">АвтоНомера</string>
+    <string name="action_settings">Настройки</string>
+    <string name="drawer_item_list">Список АвтоНомеров</string>
+    <string name="drawer_item_check">Проверить онлайн-сервис</string>
+    <string name="drawer_item_settings">Настройки приложения</string>
+
+
+    <string name="item_terms">Используя приложение Вы понимаете, что:</string>
+
+    <string name="agree">соглашаюсь</string>
+    <string name="disagree">отклоняю</string>
+    <string name="cancel">отмена</string>
+    <string name="ok">ok</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+
+    <string name="dialog_title_exit">Выход из приложения</string>
+    <string name="dialog_text_exit">Вы действительно хотите закрыть приложение и завершить работу ?</string>
+    <string name="delete">Вы хотите\nудалить данные?</string>
+    <string name="yesdel">ДА, удалить!</string>
+
+    <string name="input">Введите АвтоНомер или VIN:</string>
+    <string name="inputOK">АвтоНомер</string>
+    <string name="find_auto_eaisto">Поиск в базе данных ГИББДД</string>
+    <string name="find_auto_photo">Поиск фото автомобиля</string>
+    <string name="load_auto_photo">Загрузка фото автомобиля</string>
+
+    <string name="findImage">Поиск изображений ... </string>
+    <string name="findMyInfo">Поиск информации в базе... </string>
+    <string name="findInfo">Поиск информации в ГибДД... </string>
+    <string name="findImageFind">Загрузка фото автомобиля...</string>
+    <string name="findImageOK">Фото автомобиля получено.</string>
+    <string name="findImageFeil">Нет доступных ихображений.</string>
+    <string name="findInfoOK">Информация получена.</string>
+    <string name="findInfoFeil">Нет доступных данных.</string>
+    <string name="close">Закрыть</string>
+    <string name="find">Искать информацию</string>
+
+    <string name="butGetInfo">Получить информацию</string>
+    <string name="butGetVin">Открыть VIN за </string>
+    <string name="rub">рублей</string>
+
+    <string name="tPlate">Государственный\nрегистрационный\nномер:</string>
+    <string name="tCaption">Марка, модель:</string>
+    <string name="tVIN">№ кузова / VIN : </string>
+    <string name="tBody">№ кузова : </string>
+
+    <string name="tColor">Цвет :</string>
+    <string name="tNoColor">(после проверки регистрации в ГИБДД)</string>
+    <string name="tYear">Год выпуска:</string>
+    <string name="tGibddRegister">Регистрация ГИБДД:</string>
+    <string name="tGibddAccident">ДТП :</string>
+    <string name="tGibddWanted">Розыск ГИБДД :</string>
+    <string name="tGibddRestr">Ограничение действий :</string>
+
+    <string name="tCategory">Категория ТС : </string>
+    <string name="tEngineNumber">Номер двигателя : </string>
+    <string name="tEngineVolume">Рабочий объем (см³) : </string>
+    <string name="tPower">Мощность (кВт/л.с.) : </string>
+    <string name="tType">Тип : </string>
+
+    <string name="tActual">Проверка проведена </string>
+
+
+    <string name="linkAvtoNomer">avto-nomer.ru</string>
+    <string name="notfound">Информация отсутствует.\n\n"Это могло произойти, если автомобиль:\n- новый, не старше 2-х лет;\n- не проходил ТО легально;</string>
+
+    <string name="otvet">Ответ получен.</string>
+    <string name="problem">Сбой по техническим причинам.</string>
+    <string name="noData">Данных не найдено. Извините</string>
+    <string name="sorry">База временно недоступна. Извините.</string>
+    <string name="connect">Соединение с сервером.</string>
+    <string name="addInfo">Получение дополнительных данных...</string>
+    <string name="addCapcha">Получение и расшифровка Capcha...</string>
+    <string name="addInfoGibdd">Получение данных с сервера ГИБДД...</string>
+
+    <string name="butGetGibddRegistration">Проверить историю регистрации</string>
+    <string name="butGetGibddWanted">Проверить нахождение в розыске</string>
+    <string name="butGetGibddRestricted">Проверить наличие ограничений</string>
+    <string name="butGetGibddDTP">Проверить на участие в ДТП</string>
+
+    <string name="natural">: Физ.лицо</string>
+    <string name="legal">: Юр.лицо</string>
+    <string name="toLastTime">наст.время</string>
+    <string name="fromP">с</string>
+    <string name="toP">по</string>
+    <string name="period">Периоды владения транспортным средством:\n</string>
+
+    <string name="type01">Грузовые автомобили бортовые</string>
+    <string name="type03">Грузовые автомобили фургоны</string>
+    <string name="type04">Грузовые автомобили тягачи седельные</string>
+    <string name="type09">Грузовые автомобили прочие</string>
+
+    <string name="type21">Легковые автомобили универсал</string>
+    <string name="type22">Легковые автомобили комби (хэтчбек)</string>
+    <string name="type23">Легковые автомобили седан</string>
+    <string name="type25">Легковые автомобили купе</string>
+    <string name="type29">Легковые автомобили прочие</string>
+
+    <string name="type43">Автобусы длиной более 8м, но не более 12м</string>
+    <string name="type49">Автобусы прочие</string>
+    <string name="type53">Специализированные автомобили автокраны</string>
+    <string name="type55">Специализированные автомобили мастерские</string>
+    <string name="type59">Специализированные автомобили прочие</string>
+
+    <string name="accNumber">Информация о происшествии №</string>
+    <string name="accDate">Дата и время происшествия :</string>
+    <string name="accType">Тип происшествия :</string>
+    <string name="accName">Регион происшествия :</string>
+    <string name="noAccident">Записи о дорожно-транспортных происшествиях не найдены.</string>
+
+    <string name="tWanted">Информация о постановке в розыск\n</string>
+    <string name="wantedDate">Дата постоянного учета в розыске :</string>
+    <string name="wantedRegion">Регион инициатора розыска :</string>
+    <string name="noWanted">Не найдена информация о розыске транспортного средства.</string>
+
+    <string name="tRestrict">Информация о наложении ограничения\n</string>
+    <string name="restrictDate">Дата наложения ограничения :</string>
+    <string name="restrictRegion">Регион инициатора ограничения :</string>
+
+    <string name="restrictType">Кем наложено ограничение :</string>
+    <string name="restType1"> Судебный пристав</string>
+    <string name="restType6">ОВД или иные правоохр. органы</string>
+
+    <string name="restrictCode">Вид ограничения :</string>
+    <string name="restCode2">Запрет на регистрационные действия</string>
+
+    <string name="noRestrict">Не найдена информация о розыске транспортного средства.</string>
+</resources>

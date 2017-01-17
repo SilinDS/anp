@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:card_view="http://schemas.android.com/tools"
+                android:id="@+id/xLayout"
+                android:background="#00000000"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent" android:id="@+id/xSubLayout"
+                    android:keepScreenOn="true"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/input_horizontal_margin"
+                    android:layout_marginRight="@dimen/input_horizontal_margin"
+                    android:layout_marginTop="@dimen/input_vertical_margin"
+        >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardElevation="5dp"
+            android:theme="@style/CardView.Light"
+            app:cardBackgroundColor="@color/colorPrimaryLight">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:id="@+id/top"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    <com.devspark.robototextview.widget.RobotoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/topic"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorAccent"
+                        app:fontFamily="roboto"
+                        app:textWeight="bold"
+                        app:textStyle="normal"
+                        android:text="@string/checkInfo"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"/>
+
+                </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="3dp"
+                card_view:cardElevation="4dp"
+                android:layout_margin="10dp"
+                card_view:contentPadding="@dimen/list_item_article_space"
+                android:theme="@style/CardView.Light"
+                app:cardBackgroundColor="@color/colorWhite">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                <com.devspark.robototextview.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/internet"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorPrimary"
+                    app:fontFamily="roboto"
+                    app:textWeight="bold"
+                    app:textStyle="normal"
+                    android:text="@string/checkInProgress"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"/>
+
+                <com.devspark.robototextview.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eaisto"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorPrimary"
+                    app:fontFamily="roboto"
+                    app:textWeight="bold"
+                    app:textStyle="normal"
+                    android:text="@string/checkInProgress"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"/>
+
+
+                <com.devspark.robototextview.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/avtonomer"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorPrimary"
+                    app:fontFamily="roboto"
+                    app:textWeight="bold"
+                    app:textStyle="normal"
+                    android:text="@string/checkInProgress"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"/>
+
+                <com.devspark.robototextview.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gibdd"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorPrimary"
+                    app:fontFamily="roboto"
+                    app:textWeight="bold"
+                    app:textStyle="normal"
+                    android:text="@string/checkInProgress"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"/>
+
+                <com.devspark.robototextview.widget.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/result"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/colorAccent"
+                    app:fontFamily="roboto"
+                    app:textWeight="bold"
+                    app:textStyle="normal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"/>
+
+                <Button android:id="@+id/close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:enabled="false"
+                    />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

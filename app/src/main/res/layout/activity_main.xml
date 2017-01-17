@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_white_1000"
+            android:orientation="vertical">
+            <include layout="@layout/include_toolbar" />
+            <include layout="@layout/include_list_view" />
+        </LinearLayout>
+
+        <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/samples_fabLocation"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            android:layout_alignParentBottom="true"
+            android:fitsSystemWindows="true"
+            android:layout_alignParentTop="false">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:layout_margin="@dimen/regular_offset"
+                android:src="@android:drawable/ic_input_add" />
+        </android.support.design.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

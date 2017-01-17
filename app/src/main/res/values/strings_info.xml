@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="checkInfo">\"АвтоНомера\" - проверка\nонлайн-сервиса"</string>
+    <string name="checkInProgress">-- производится проверка --</string>
+    <string name="access">РАЗРЕШИТЬ</string>
+    <string name="accesMessage">Необходим доступ к хранилищу мультимедиа длясохранения фото авто.</string>
+    <string name="server3qr">http://3qr.ru/</string>
+    <string name="myFileOnServer">android/anp.auto</string>
+    <string name="internetInfoYes">Доступ в интернет - есть.\n\"Онлайн-сервис \"АвтоНомера\" - подключен.</string>
+    <string name="internetInfoNo">Доступ в интернет - отсутствует либо приложение было заблокировано автором.</string>
+    <string name="internetNoAccess">-- невозможно проверить --</string>
+    <string name="internetInfoFeil">Доступ в интернет - есть.\n\"Онлайн-сервис \"АвтоНомера\"  - отключен.\nИнформация - на странице приложения\nв GooglePlay.</string>
+    <string name="libsite">http://www.rulibsite.com/</string>
+    <string name="webdk">http://web-dk.ru/</string>
+    <string name="noUserAccess">Доступ в интернет - есть.\n\"Онлайн-сервис \"АвтоНомера\"  - ограничен.</string>
+    <string name="noUserAccessAll">Доступ в интернет - есть.\n\"Онлайн-сервис \"АвтоНомера\"  - недоступен.</string>
+    <string name="eaistoOk">Сервер ГИБДД сейчас - онлайн.\nПроверка новых АвтоНомеров доступна.</string>
+    <string name="eaistoFeil">Сервер ГИБДД сейчас - оффлайн.\nПроверка новых АвтоНомеров временно не доступна.</string>
+    <string name="avtonomer">http://avto-nomer.ru/</string>
+    <string name="avtonomerOk">Получение изображений АвтоНомеров и автомашин - возможно.</string>
+    <string name="avtonomerFeil">Изображения новых АвтоНомеров и автомашин недоступны.\</string>
+    <string name="gibdd">http://www.gibdd.ru/check/auto/</string>
+    <string name="gibddOk">Сайт gibdd.ru сейчас - онлайн.\nДоступна информация о регистрации, розыске и отраничениях на автомобиль.</string>
+    <string name="gibddFeil">Сайт gibdd.ru сейчас - оффлайн.\nПолучение информации о регистрации, розыске и отраничениях невозможно.</string>
+    <string name="checkResultOnline">Приложение готово к работе\nОНЛАЙН.</string>
+    <string name="checkResultOffline">Приложение работает ОФФЛАЙН.\nВозможен только просмотр сохранённых данных.</string>
+    <string name="checkResultClose">Приложение будет закрыто.</string>
+    <string name="checkResultAccessDenied">Приложение готово к работе\nОНЛАЙН.\nВозможен только просмотр сохранённых данных и загрузка изображений.</string>
+    <string name="checkResultEaistoProblem">Приложение готово к работе\nОНЛАЙН.\nВозможен только просмотр сохранённых данных и загрузка изображений.</string>
+    <string name="butContinue">продолжить</string>
+    <string name="butClose">завершить</string>
+    <string name="addImageProblem">\n(без загрузки изображений)</string>
+    <string name="addGibddProblem">\n(без проверки на сайте gibdd.ru)</string>
+    <string name="addBigProblem">\nЖелаем дальнейших успехов !</string>
+    <string name="addSmallProblem">\nСвяжитесь с администрацией.</string>
+</resources>
