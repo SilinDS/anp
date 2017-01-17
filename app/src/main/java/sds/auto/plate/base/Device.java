@@ -16,12 +16,14 @@ public class Device {
     @SerializedName("alter")   private String alter;
 
 
-    public Device (String md5, int access, String anpKey, String capchaBypass) {
+    public Device (String md5, int access, String anpKey, String capchaBypass,
+                   String source, String alter) {
         this.md5 = md5;
         this.access = access;
         this.anpKey = anpKey;
         this.capchaBypass = capchaBypass;
         this.source = source;
+        this.alter = alter;
     }
 
     public String getMd5() {  return md5;   }

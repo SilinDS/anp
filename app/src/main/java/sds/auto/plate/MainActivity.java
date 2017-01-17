@@ -153,7 +153,7 @@ public class MainActivity extends BaseActivity  implements FragmentListHolder.Ca
 
             if (data.getIntExtra("result", 1) == 1 )  finish();  //  выкидываем, если что не так
             if (  cars.size() == 0 )  addNewAuto();
-        } else {        //STOPSHIP
+        } else {
             //         разобраться, а какой еще может быть resultCode ?
           //  finish();
         }

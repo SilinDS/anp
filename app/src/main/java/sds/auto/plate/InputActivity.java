@@ -98,17 +98,13 @@ public class InputActivity extends Activity implements OnTouchListener, OnClickL
     private static final String TAG_DEVICE_MD5 = "md5";
     private static final String TAG_ANPKEY = "anpKey";
     private static final String TAG_SOURCE = "source";
-    private static final String TAG_CAPCHA = "bypass";
+    private static final String TAG_ALTER = "alter";
 
     SharedPreferences sp;
     String md5, anpkey;
 
     private Retrofit retrofitWebDk, retrofitWebDkSt, retrofitAnpPlate,
             retrofitAnpImage, retrofitLibsite;
-
-    //  private Retrofit retrofitLibsite,
-    //         retrofitUsluga,retrofitUslugaSt, retrofitAnpPlate, retrofitAnpImage,
-    //         retrofitGibdd;
 
     private  MyPlateInterface myPlateApi;
     private  WebDkInterface webdkApi;
@@ -216,7 +212,6 @@ public class InputActivity extends Activity implements OnTouchListener, OnClickL
                 .enqueue(new Callback <ResponseBody>() {
                     @Override
                     public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
-
                         if (response.body() != null) {
                             String answer = null;
                             try {
